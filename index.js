@@ -10,6 +10,7 @@ app.use(cors())
 app.use("/login",require("./routers/Login"))
 app.use("/register",require("./routers/Register"))
 app.use("/fetchdata",require("./routers/fetch"))
+app.use("/update",require("./routers/update"))
 
 
 app.listen(3007,(req,res)=>{

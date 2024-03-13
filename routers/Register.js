@@ -13,12 +13,12 @@ let register = express.Router().post("/",(req,res)=>{
                     throw err
                 }else{
                    
-                   res.send(result);
-                   console.log("Registered succesfully")
+                //    res.send(result);
+                   res.send("Registered succesfully")
                 }
             })
         }
     })
 })
 
-module.exports = register
+module.exports = register;
